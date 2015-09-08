@@ -8,7 +8,7 @@ class Pessoa
 
   attr_accessor :idade, :altura, :peso
 
-  # Retorna qual classe é responsável pode serializar este model
+  # Retorna qual classe é responsável por serializar este model
   def active_model_serializer
     PessoaSerializer
   end
